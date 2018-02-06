@@ -1,0 +1,5 @@
+﻿	/* base.css : 홈페이지의 분위기 */
+	body { font-family: "Nanum Barun Gothic", "나눔고딕", "NanumGothic", "돋움", "Dotum", sans-serif;
+				 }
+	a:link, a:visited{ color:#000; text-decoration:none; }
+	a:hover, a:focus{ color:#000; text-decoration:underline; }

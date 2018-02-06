@@ -1,0 +1,110 @@
+
+		@import url('https://fonts.googleapis.com/css?family=Bitter');
+		@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+		*{ margin:0; padding:0; }
+		html, body{ height:100%; }
+		body{  font-family: 'Hanna', serif; font-size:90%; color:#000; }
+		a:link, a:visited{  color:#000;   text-decoration:none; }
+		a:hover, a:focus{  color:#000;   text-decoration:underline; }
+
+		#main{ width:100%; height:100%; }
+		.container{ width:1280px; margin:0 auto; }
+
+		/*header*/
+		#header{ width:100%; height:100%;/*height:840%;*/ background:url("../images/raspberry-2023404_1280.jpg") no-repeat; background-size:cover; position:relative; }
+		
+		#header > .container{ width:auto; }
+		#header h1.logo{ width:154px; height:65px; background-color:crimson; /*indeared, lightcoral, lightpink*/ text-align:center; 
+				 padding-top:25px; position:absolute; top:0; left:17%; z-index:1000; }
+		#header h1.logo img{ width:70%; }
+
+		#header p.cafe_title{ width:100%; height:50px; text-align:center; padding-top:35%; font-size:25px; color:aliceblue; }
+
+		#header p.button_down{ height:70px; position:absolute; top:90%; left:50%; z-index:500; }
+
+
+
+		/*section.s1*/
+		.section.s1{ width:100%; height:100%; overflow:hidden; background:url("../images/mineral-water-with-strawberries-1411368_1280.jpg") no-repeat; background-size:cover; position:relative; }
+		.section.s1 h1.logo{ width:154px; height:65px; background-color:crimson; /*indeared, lightcoral, lightpink*/ text-align:center; 
+				 padding-top:25px; position:absolute; top:0; left:17%; z-index:1000; }
+		.section.s1 h1.logo img{ width:70%; }
+		.section.s1 ul.menu{ width:8%; height:170px; overflow:hidden; position:absolute; top:10.7%; left:17%; background-color:white; }
+		.section.s1 ul.menu > li{ width:100%; height:20%; line-height:35px; text-align:center; padding-top:5%; font-size:90%; }
+		.section.s1 ul.menu > li > a{ display:block; width:100%; height:100%; }
+
+		.section.s1 .aboutbox{ position:absolute; right:0%; top:10.7%; width:50%; height:84%; background-color:#fff; }
+		.section.s1 .aboutbox .explain{ width:70%; height:70%; padding:15%; overflow:hidden; background-color:#fff; }
+		.section.s1 .aboutbox .explain h3{ font-weight:bold; font-size:25px; }
+		.section.s1 .aboutbox .explain p.one{ width:100%; padding:5% 0; font-size:18px; line-height:22px; }
+		.section.s1 .aboutbox .explain p.one span{ display:block; height:40px; line-height:60px; }
+		.section.s1 .aboutbox .explain p.one_img{ width:100%; padding-top:5%; text-align:center; }
+		.section.s1 .aboutbox .explain p.one_img img{ width:50%; }
+		.section.s1 .aboutbox .explain p.one_img span{ display:block; width:100%; text-align:center; }
+
+		.section.s1 p.button_down{ width:100%; height:70px; position:absolute; top:90%; left:50%; z-index:500; }
+		
+
+		/*section.s2*/
+		.section.s2{ width:100%; height:100%; overflow:hidden; background:url("../images/strawberries-2118383_1280.jpg") no-repeat; background-size:cover; position:relative; }
+		.section.s2 h1.logo{ width:154px; height:65px; background-color:crimson; /*indeared, lightcoral, lightpink*/ text-align:center; 
+				 padding-top:25px; position:absolute; top:0; right:17%; z-index:1000; }
+		.section.s2 h1.logo img{ width:70%; }
+		.section.s2 ul.menu{ width:8%; height:170px; overflow:hidden; position:absolute; top:10.7%; right:17%; background-color:white; }
+		.section.s2 ul.menu > li{ width:100%; height:20%; line-height:35px; text-align:center; padding-top:5%; font-size:90%; }
+		.section.s2 ul.menu > li > a{ display:block; width:100%; height:100%; }
+
+		.section.s2 .menubox_sc{ position:absolute; left:0%; top:10.7%; width:50%; height:84%; background-color:#fff; }
+		.section.s2 .menubox_sc .explain{ width:70%; height:70%; padding:15%; overflow:hidden; background-color:#fff; }
+		.section.s2 .menubox_sc .explain h3{ font-weight:bold; font-size:25px; } 
+		.section.s2 .menubox_sc .explain p.two{ width:100%; padding:2% 0; font-size:18px; line-height:22px; }
+		.section.s2 .menubox_sc .explain ul.two_menu{ width:100%; height:90%; overflow:hidden; }
+		.section.s2 .menubox_sc .explain ul.two_menu li{ width:50%; height:48%; float:left; padding-bottom:2%; text-align:center; }
+		.section.s2 .menubox_sc .explain ul.two_menu li img{ width:90%; }
+		.section.s2 .menubox_sc .explain ul.two_menu li > span{ display:block; width:100%; text-align:center; }
+
+		.section.s2 p.button_down{ width:100%; height:70px; position:absolute; top:90%; left:50%; z-index:500; }
+
+
+
+		/*section.s4*/
+		.section.s4{ width:100%; height:100%; overflow:hidden; background:url("../images/egg-2142064_1280.jpg") no-repeat; background-size:cover; position:relative; }
+		.section.s4 .explain{ width:100%; height:630px; overflow:hidden; position:absolute; top:10.7%; }
+	
+		.section.s4 .explain .material{ width:100%; height:50%; overflow:hidden; }
+		.section.s4 .explain .material ul.baking{ width:100%; height:88%; overflow:hidden; }
+		.section.s4 .explain .material ul.baking li{ width:23%; height:95%; margin:1%; text-align:center; float:left; background-color:#fff; }
+		.section.s4 .explain .material ul.baking li:nth-child(4){ margin-right:0%; }
+		.section.s4 .explain .material ul.baking li img{ width:90%; padding:5%; }
+		.section.s4 .explain .material ul.baking li > span{ display:block; width:90%; height:50px; padding:0 5%; padding-top:3%; text-align:center; }
+
+		.section.s4 .explain .membership{ width:98%; height:50%; overflow:hidden; margin-left:1%; }
+		.section.s4 .explain .membership h3{ width:100%; height:50px; text-align:center; line-height:50px; font-size:28px; color:aliceblue; }
+		.section.s4 .explain .membership form{ width:100%; height:50%; text-align:center; }
+
+		.section.s4 .explain .membership p.infoemail{ width:100%; }
+
+		.section.s4 .explain .membership form input[type="email"]{ width:40%; padding:1% 0; margin:1% 0; }
+		.section.s4 .explain .membership form input[type="submit"],
+												input[type="button"]{ width:10%; background-color:lightcoral; border:1px solid lightcoral; color:#fff; padding:0.3% 0; }
+
+		.section.s4 p.button_down{ width:100%; height:70px; position:absolute; top:90%; left:52%; z-index:500; }
+
+		/*footer*/
+		#footer{ width:100%; height:100%; overflow:hidden; background:url("../images/strawberry-cake-594170_1280.jpg") no-repeat; background-size:cover; position:relative; }
+		#footer .aboutbox{ position:absolute; right:0%; top:10.7%; width:50%; height:84%; background-color:#fff; }
+		#footer .aboutbox .explain{ width:70%; height:70%; padding:15%; overflow:hidden; background-color:#fff; }
+		#footer .aboutbox .explain h3{ font-weight:bold; font-size:25px; }
+		#footer .aboutbox .explain h4{ padding:2% 0;  font-size:18px; line-height:22px; font-weight:normal; }
+
+		#footer .aboutbox .explain form input[type="text"]{ width:20%; padding:0.3% 0; margin:2% 0; }
+		#footer .aboutbox .explain form p label{ font-size:15px; margin-right:3%; }
+		#footer .aboutbox .explain form input[type="button"]{ width:15%; background-color:lightcoral; border:1px solid lightcoral; color:#fff; padding:1% 0; margin-left:40%; margin-top:2%; }
+
+			
+		#footer p.button_down{ height:70px; position:absolute; top:90%; left:50%; z-index:500; }
+
+
+		p.button_box {
+			margin-left:110px;
+		}

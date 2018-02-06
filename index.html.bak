@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width	,	user-scalable=no"><!--뷰포트-->
+  <title>딸콤콤 | 디저트카페</title>
+	<link rel="stylesheet" style="test.css" href="./css/reset.css">
+	<link rel="stylesheet" style="test.css" href="./css/base.css">
+	<link rel="stylesheet" style="test.css" href="./css/css_sytle.css">
+
+	<!-- favicon 파비콘 -->
+	<link rel="shortcut icon" href="./images/strawberry_32.png"><!--안드-->		
+	<link rel="apple-touch-icon" href="./images/strawberry_32.png"><!--ios-->
+	<link rel="icon" href="./images/strawberry_16.png" sizes="16x16">
+	<link rel="icon" href="./images/strawberry_24.png" sizes="24x24">			
+	<link rel="icon" href="./images/strawberry_64.png" sizes="64x64">	
+	<link rel="icon" href="./images/strawberry_128.png" sizes="128x128">	
+	<link rel="icon" href="./images/strawberry_32.png" sizes="32x32">
+	<!--적용 안 될때에는 가장 기본사이즈인 32x32를 제일 밑에 둘 것.-->		
+
+
+	<!-- 2017.04.10 by.정은 -->
+
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="./js/js_sliding_window.js"></script>
+ </head>
+ <body>
+	<div id="main">
+		<div id="header">
+			<div class="container">
+				<h1 class="logo"><img src="images/로고_.gif" alt="로고"/></h1><!-- logo -->
+				<p class="cafe_title">딸콤콤은 "딸기의 달콤달콤함을 두 배" 느낄 수 있는 딸기 전문 디저트카페입니다. </br/>딸콤콤에 오신 걸 환영합니다.</p>
+				<p class="button_down"><a href="" title=""><img src="./images/chevron-down (1).png" alt="버튼"/></a></p>
+			</div><!-- container END -->
+		</div><!-- header END -->
+		<div class="section s1">
+			<div class="container">
+				<h1 class="logo"><img src="./images/로고_.gif" alt="로고"/></h1><!-- logo -->
+				<p class="button_down"><a href="" title=""><img src="./images/chevron-down (1).png" alt="버튼"/></a></p>
+				<nav class="menubox">
+					<h2></h2>
+					<ul class="menu">
+						<li><a href="#" title="">HOME</a></li>
+						<li><a href="#" title="">ABOUT US</a></li>
+						<li><a href="#" title="">MENU</a></li>
+						<li><a href="#" title="">Q&amp;A</a></li>
+					</ul>
+				</nav><!-- menuBox END -->		
+				<div class="aboutbox">
+					<div class="explain">
+						<h3>ABOUT US</h3>
+						<p class="one">
+						안녕하세요. 딸콤콤은 "딸기의 달콤달콤함을 두 배" 느낄 수 있는 딸기 전문 디저트카페입니다.<br/>딸콤콤에서는 쥬스, 케이크, 샐러드 등 다양한 딸기 음식을 맛보실 수 있습니다.<br/>항상 신선하고, 당도 높은 딸기만 취급하며, 밝은 미소와 행동으로 고객님들께 맛있는 딸기 음식을 대접하겠습니다.<br/><span>딸콤콤은 전화 예약 주문도 가능합니다.</span>
+						</p>
+						<p class="one_img"><img src="./images/cake-1101029_1280.jpg" alt="딸기사진"/><span>딸콤콤의 '초코이불을 좋아하는 딸기케이크'</span></p>
+					</div><!-- explain END -->
+				</div><!-- aboutbox END -->
+			</div><!---->
+		</div><!---->
+		<div class="section s2">
+			<div class="container">
+				<h1 class="logo"><img src="images/로고_.gif" alt="로고"/></h1><!-- logo -->
+				<p class="button_down"><a href="" title=""><img src="./images/chevron-down (1).png" alt="버튼"/></a></p>
+				<nav class="menubox">
+					<h2></h2>
+					<ul class="menu">
+						<li><a href="#" title="">HOME</a></li>
+						<li><a href="#" title="">ABOUT US</a></li>
+						<li><a href="#" title="">MENU</a></li>
+						<li><a href="#" title="">Q&amp;A</a></li>
+					</ul>
+				</nav><!-- menuBox END -->		
+				<div class="menubox_sc">
+					<div class="explain">
+						<h3>MENU</h3>
+						<p class="two">딸콤콤의 대표 메뉴들입니다.</p>
+						<ul class="two_menu">
+							<li>
+								<img src="images/cake-219595_960_720.jpg" alt="딸기 케이크"/>
+								<span>딸콤콤의 '딸기의 하얀 동네 케이크'</span>
+							</li>
+							<li>
+								<img src="images/tart-2034423_960_720.jpg" alt="딸기 에그타르트"/>
+								<span>딸콤콤의 '에그타르트 속에 딸기친구가'</span>
+							</li>
+							<li>
+								<img src="images/raspberries-2130735_960_720.jpg" alt="딸기 샤베트"/>
+								<span>딸콤콤의 '딸기샤베트와 겨울나라로'</span>
+							</li>
+							<li>
+								<img src="images/berries-1845626_960_720.jpg" alt="딸기 케이크"/>
+								<span>딸콤콤의 '딸기와 생크림의 조화'</span>
+							</li>
+						</ul><!-- two_menu END -->
+					</div><!-- explain END -->
+				</div><!-- menubox_sc END -->
+			</div><!-- container END -->
+		</div><!-- section.s2 END -->
+		<div class="section s4">
+			<div class="container">
+				<p class="button_down"><a href="" title=""><img src="./images/chevron-down (1).png" alt="버튼"/></a></p>
+				<div class="explain">
+					<div class="material">
+						<h3></h3>
+						<ul class="baking">
+							<li>
+								<img src="images/strawberry-361597_960_720.jpg" alt="딸기"/>
+								<span>딸콤콤은 신선한 딸기로 디저트를 만듭니다.</span>
+							</li>
+							<li>
+								<img src="images/bake-599521_960_720.jpg" alt="버터랑 밀가루"/>
+								<span>신선한 버터와 우리나라 땅에서 나는 밀가루로 디저트를 만듭니다.</span>
+							</li>
+							<li>
+								<img src="images/salt-1884166_960_720.jpg" alt="소금"/>
+								<span>고객님들의 건강을 생각해 나트륨을 줄인 저염 소금으로 만듭니다.</span>
+							</li>
+							<li>
+								<img src="images/egg-1467336_960_720.jpg" alt="계란"/>
+								<span>액상계란이 아닌 신선한 계란으로 디저트를 만듭니다.</span>
+							</li>
+						</ul><!---->
+					</div><!-- material END -->
+					<div class="membership">
+						<h3>이메일을 입력하시면, 다양한 혜택을 받으실 수 있습니다.</h3>
+						<form action="#" method="post">
+							<fieldset>
+							<legend></legend>
+								<p class="infoemail">
+									<label for="email">E-mail</label>
+									<input type="email" id="email"/>
+								</p>
+								<p class="button_box">
+									<input type="button" value="가입" title="클릭하시면 딸콤콤의 홍보혜택을 받으실 수 있습니다." placeholder="이메일 주소를 정확히 입력해주세요." title=""/>
+								</p>
+							</fieldset>
+						</form>
+					</div><!-- membership END -->
+				</div><!-- explain END -->
+			</div><!-- container END -->
+		</div><!-- section.s4 END -->
+		<div id="footer">
+			<div class="container">
+				<p class="button_down"><a href="" title=""><img src="./images/chevron-down (2).png" alt="버튼"/></a></p>
+				<div class="aboutbox">
+					<div class="explain">
+						<h3>Q&amp;A</h3>
+						<h4 class="title">문의사항 질문 게시판입니다.</h4>
+						<form action="#" method="post">
+							<fieldset>
+							<legend></legend>
+								<p>
+									<labe2017-04-11l for="useremail">이메일</label>
+									<input type="text" id="useremail" name="useremail" required="required">@<input type="text" id="usermail2" name="usermail2" required="required" />
+									<select id="usermail3" name="usermail3">
+										<option value="default">-이메일 선택-</option>
+										<option value="naver.com">naver.com</option>
+										<option value="daum.net">daum.net</option>
+										<option value="nate.com">nate.com</option>
+										<option value="hotmail.com">hotmail.com</option>
+										<option value="gmail.com">gmail.com</option>
+										<option value="etc">직접입력</option>
+									</select>
+								</p>
+								<!--이메일-->
+								<p>
+									<label for="usermobile">휴대전화</label>
+									<select id="usermobile" name="usermobile">
+										<option value="010">010</option>
+										<option value="011">011</option>
+										<option value="016">016</option>
+										<option value="017">017</option>
+										<option value="018">018</option>
+										<option value="019">019</option>
+									</select>
+									<input type="text" id="userphone2" name="userphone2">-<input type="text" id="userphone3" name="userphone3">
+								</p>
+								<!--휴대전화-->
+								<p>
+									<label for="usertitle">제목</label>
+									<input type="text" name="title" id="title" class="inp_base" title="제목 입력" style="width:75%;" maxlength="200">
+								</p>
+								<!--제목-->
+								<p>
+									<label for="usercontent">내용</label>
+									<input type="text" name="title" id="title" class="inp_base" title="내용입력" style="width:75%; height:200px;"  maxlength="200">
+								</p>
+								<!--내용-->
+								<p>
+									<label for="filename">첨부파일</label>
+									<input type="file" id="fliename" name="fliename" />	
+								</p>
+								<!--첨부파일-->
+								<p class="button_box">
+									<input type="button" value="확인" title=""/>
+								</p>
+							</fieldset><!--질문 등록-->
+						</form>
+					</div><!-- explain END -->
+				</div><!-- aboutbox END -->				
+			</div><!-- container END -->
+		</div><!-- footer END -->
+	</div><!-- main END -->
+ </body>
+</html>
+<!-- https://validator.kldp.org/check --> 
